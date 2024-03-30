@@ -8,7 +8,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width:  400px;
+    width:  850px;
+    gap: 5px;
     margin: 30px auto;
     border-color: 2px solid black;
 }
@@ -16,8 +17,10 @@
 .grid-item {
     width: 25px;
     height: 25px;
-    border-color: 1px solid black
-    
+    padding: 5px;
+    border-color: 1px solid black;
+    border-radius: 4px;
+    transition: 0.5s;
 }
 
 .grid-item:hover {
