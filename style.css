@@ -1,11 +1,15 @@
 
+#changeGridBtn {
+    margin: 30px auto;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width:  400px;
-    margin: 100px auto;
+    margin: 30px auto;
     border-color: 2px solid black;
 }
 
